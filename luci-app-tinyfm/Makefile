@@ -8,7 +8,7 @@ PKG_LICENSE:=MIT
 PKG_MAINTAINER:=Yogxx <https://github.com/Yogxx/tinyfm>
 
 LUCI_TITLE:=LuCI support for TinyFM
-LUCI_DEPENDS:=+php8
+LUCI_DEPENDS:=+kmod-tun
 LUCI_PKGARCH:=all
 
 include $(TOPDIR)/feeds/luci/luci.mk
