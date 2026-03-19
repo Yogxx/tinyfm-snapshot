@@ -18,3 +18,20 @@ opkg update && opkg install php8 php8-cgi php8-fastcgi php8-fpm php8-mod-session
 ```shell
 apk update && apk add php8 php8-cgi php8-fastcgi php8-fpm php8-mod-session php8-mod-ctype php8-mod-fileinfo php8-mod-zip php8-mod-iconv php8-mod-mbstring coreutils-stat zoneinfo-asia
 ```
+Screenshoot
+---
+<details><summary>Screenshot</summary>
+ <p>
+  <img src="https://raw.githubusercontent.com/Yogxx/tinyfm-snapshot/refs/heads/main/img/tinyfm.png?token=GHSAT0AAAAAADVLGX4ILKTJM6QAPBHM7WX42N3NMSA" alt="home">
+ </p>
+</details>
+<details>
+ <p>
+  <img src="https://raw.githubusercontent.com/Yogxx/tinyfm-snapshot/refs/heads/main/img/tinyfm1.png?token=GHSAT0AAAAAADVLGX4JJTCOKTHC6RH77KCE2N3NNLQ2N3NMSA" alt="home">
+ </p>
+</details>
+<details>
+ <p>
+  <img src="https://raw.githubusercontent.com/Yogxx/tinyfm-snapshot/refs/heads/main/img/tinyfm2.png?token=GHSAT0AAAAAADVLGX4I2ZUOB53NZ2PXFFBC2N3NOEQ" alt="home">
+ </p>
+</details>
