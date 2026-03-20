@@ -22,7 +22,6 @@ endef
 
 define Package/$(PKG_NAME)/install
 
-	# Install root files (jika ada)
 	if [ -d ./root ]; then \
 		$(CP) ./root/* $(1)/; \
 	fi
