@@ -108,7 +108,6 @@ jobs:
       run: |
         cd sdk
 
-        # Hanya feed yang dibutuhkan (packages + luci)
         cat > feeds.conf << EOF
         src-git packages https://github.com/openwrt/packages.git${{ matrix.feeds_branch }}
         src-git luci https://github.com/openwrt/luci.git${{ matrix.feeds_branch }}
@@ -126,7 +125,6 @@ jobs:
           echo "Cache hit — skipping feeds update"
         fi
 
-        # -d m = register package saja, TIDAK compile dependency dari source
         ./scripts/feeds install -d m -p luci luci-base
         ./scripts/feeds install -d m -p packages \
           php8 php8-cgi php8-fpm \
@@ -136,8 +134,6 @@ jobs:
 
         make defconfig
 
-        # Hapus semua CONFIG_PACKAGE_* agar tidak ada package lain yang ikut compile
-        # Hanya aktifkan luci-app-tinyfm sebagai module (=m)
         grep -v "^CONFIG_PACKAGE_" .config > .config.tmp && mv .config.tmp .config
         echo "CONFIG_PACKAGE_luci-app-tinyfm=m" >> .config
         make defconfig
