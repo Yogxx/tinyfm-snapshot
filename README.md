@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center">
-  <img src="https://img.shields.io/github/downloads/Yogxx/OpenWrt-nikkiku/total?style=for-the-badge&logo=github" alt="GitHub Downloads">
+  <img src="https://img.shields.io/github/downloads/Yogxx/tinyfm-snapshot/total?style=for-the-badge&logo=github" alt="GitHub Downloads">
 </p>
 
 Required dependencies
