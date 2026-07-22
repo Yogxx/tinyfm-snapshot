@@ -30,3 +30,7 @@ Screenshot
   <img src="https://raw.githubusercontent.com/Yogxx/tinyfm-snapshot/refs/heads/main/img/tinyfm2.png" alt="tinyfm2">
  </p>
 </details>
+
+Credit
+---
+- [Prasathmani](https://github.com/prasathmani)
